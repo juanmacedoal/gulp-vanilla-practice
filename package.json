@@ -72,20 +72,5 @@
     "style": "style.css",
     "app": "app.js",
     "dist": "dist"
-  },
-  "browserify": {
-    "transform": [
-      [
-        {
-          "presets": [
-            "es2015",
-            "reactify"
-          ],
-          "plugins": [
-            "module-resolver"
-          ]
-        }
-      ]
-    ]
   }
 }

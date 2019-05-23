@@ -1,3 +1,3 @@
-var test = require('../gulpfiles/server');
-
-console.log('test');
+console.log('a');
+var test = require('./test');
+test();

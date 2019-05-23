@@ -18,14 +18,12 @@ gulp
     //   })
     //   .pipe(source(package.dest.app))
     //   .pipe(gulp.dest(package.dest.dist));
-    var b = browserify();
+    var b = browserify('./js/app.js');
 
     return b
+      .transform(babelify.configure({ presets: ['es2015'] }))
       .bundle()
-      .on('error', err => {
-        console.error('error is', err);
-      })
-      .pipe(source(package.dest.app)) // destination file for browserify, relative to gulp.dest
+      .pipe(source('app.js')) // destination file for browserify, relative to gulp.dest
       .pipe(buffer())
       .pipe(uglify())
       .pipe(gulp.dest(package.dest.dist));
