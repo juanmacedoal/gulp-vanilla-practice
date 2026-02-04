@@ -18,7 +18,7 @@
     "browser-sync": "1.8.2",
     "bourbon": "^5.0.0-beta.8",
     "bourbon-neat": "^2.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-connect": "^5.0.0",
     "gulp-sass": "^3.1.0",
@@ -57,7 +57,7 @@
     "browser-sync": "^2.26.4",
     "browserify": "^16.2.3",
     "browserify-css": "^0.15.0",
-    "gulp": "^4.0.1",
+    "gulp": "^4.0.2",
     "gulp-webserver": "^0.9.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
